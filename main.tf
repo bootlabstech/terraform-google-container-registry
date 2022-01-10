@@ -1,4 +1,4 @@
-resource "google_container_registry" "mpaas-reg" {
-  project  = var.project
+resource "google_container_registry" "registry" {
+  project  = var.project_id
   location = var.location
 }
