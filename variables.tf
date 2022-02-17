@@ -7,7 +7,7 @@ variable project{
 variable location{
     description =  <<-EOT
     {
-   "type": "api",
+   "type": "json",
    "purpose": "autocomplete",
    "data":[ "asia-east1",
         "asia-east2",
